@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form id="container">
+        <h1>Formulário de teste</h1>
+    <div>
+        <label for="nome"  class="nomes">Nome:</label>
+        <input class="box" type="text" id="nome" placeholder="Insira seu nome" required>
+    </div><br>
+    <div>
+        <label for="cpf"  class="nomes">Cpf:</label>
+    <input class="box" type="number" id="cpf"placeholder="Insira seu CPF" required>
+    </div><br>
+    <div>
+    <label for="email" class="nomes">E-mail:</label>
+    <input class="box" type="text" id="email" placeholder="Insira seu e-mail" required>
+    </div><br>
+    <div><label for="avalie" class="nomes">Avalie-nos</label>
+        <div class="rating box">
+            <input type="radio" name="rating" id="rating-5">
+            <label for="rating-5"></label>
+            <input type="radio" name="rating" id="rating-4">
+            <label for="rating-4"></label>
+            <input type="radio" name="rating" id="rating-3">
+            <label for="rating-3"></label>
+            <input type="radio" name="rating" id="rating-2">
+            <label for="rating-2"></label>
+            <input type="radio" name="rating" id="rating-1">
+            <label for="rating-1"></label>
+        </div>   
+    </div><br>
+    <div>
+    <textarea class="box" id="comment" cols="30" rows="10" placeholder="Fique a vontade para fazer comentários"></textarea></div>
+    <div><button type="submit" id="oka" class="box">Enviar</button></div>
+    </form>  
+</body>
+</html>
