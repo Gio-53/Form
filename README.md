@@ -8,7 +8,7 @@ Basicamente um formulário onde o usuário insere algumas informações, resolvi
 - CSS: Para estilização;
 
 ## Como Usar
-- Faça o download do zip e extraia em sua maquina
+- Faça o download do repositório ou clone para sua maquina
 - Abra o aplicativo em um navegador da web
 
 ## Autor
